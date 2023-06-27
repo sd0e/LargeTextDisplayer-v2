@@ -1,0 +1,151 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: rgb(255, 255, 92);
+    height: 50px;
+}
+
+body {
+    margin: 0;
+}
+
+.headerTitle {
+    font-size: 25px;
+}
+
+.page1 {
+    text-align: center;
+}
+
+.navigation {
+    text-decoration: none;
+}
+
+.page2 {
+    text-align: center;
+}
+
+.marquee {
+    display: inline-block;
+}
+
+marquee {
+    top: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.submit {
+    background-color: rgb(255, 255, 92);
+    border: 0;
+    height: 30px;
+}
+
+input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: rgb(255, 255, 92);
+    width: 40%;
+    text-align: center;
+    font-size: 20px;
+    outline-width: 0;
+}
+
+.back {
+    border: 0;
+    background-color: white;
+    height: 25px;
+    width: 25px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 40%;
+    height: 5px;
+    border-radius: 5px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    background: #4285F4;
+    cursor: pointer;
+}
+  
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4285F4;
+    cursor: pointer;
+}
+
+select {
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: rgb(255, 255, 92);
+    outline-width: 0;
+}
+
+.timesNewRoman {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.courierNew {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.helvetica {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.garamond {
+    font-family: Garamond, serif;
+}
+
+.comicSans {
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+.dmSerifDisplay {
+    font-family: 'DM Serif Display', serif;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+.overpass {
+    font-family: 'Overpass', sans-serif;
+}
+
+.impact {
+    font-family: Impact, Charcoal, sans-serif;
+}
