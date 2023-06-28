@@ -3,7 +3,7 @@ function addCookie() {
     window.open(url);
 }
 
-function loadLocalStorage() {
+function loadParameters() {
     var LargeTextText = getURLParameter("text");
     var LargeTextForeground = getURLParameter("foreground");
     var LargeTextBackground = getURLParameter("background");
